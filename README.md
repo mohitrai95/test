@@ -59,6 +59,12 @@ I have created a terraform module for this solution as well.
 
 Note : I have created a new ECS cluster in this module however we can use the above the created cluster as well.
 
+## Use cases mentioned in the question are tested :
+- Autoscaling policy working fine when changing the desired instance
+- If instance type is chnaged in launched template it reflects in ASG 
+- S3 storage of state file and versioning
+- Terraform lock on state file tested as well.
+
 
 
 
